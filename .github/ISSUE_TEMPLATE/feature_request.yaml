@@ -8,7 +8,7 @@ body:
     id: 'problem'
     attributes:
       label: 'Describe the problem/motivation'
-      description: 'A clear description of the problem this feature would solve'
+      description: 'A clear description of the problem this feature would solve.'
       placeholder: "It's an issue that..."
     validations:
       required: true
@@ -17,7 +17,7 @@ body:
     id: 'solution'
     attributes:
       label: "Describe the solution you'd like"
-      description: 'A clear description of what change you would like'
+      description: 'A clear description of what change you would like.'
       placeholder: 'I would like to...'
     validations:
       required: true
@@ -26,7 +26,7 @@ body:
     id: 'alternatives'
     attributes:
       label: 'Alternatives considered'
-      description: "Any alternative solutions you've considered"
+      description: "Any alternative solutions you've considered."
 
   - type: 'textarea'
     id: 'context'

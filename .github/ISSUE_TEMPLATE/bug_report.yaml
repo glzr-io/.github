@@ -7,7 +7,7 @@ body:
   - type: 'markdown'
     attributes:
       value: |
-        ## Guidelines
+        ## ⚠️ Guidelines
         1. Please search for existing issues about this problem first.
         2. Make sure it's not an issue with something else you are using.
         3. Don't be rude. Maintaining software is time-consuming, so please be considerate.
@@ -17,7 +17,6 @@ body:
     attributes:
       label: 'Describe the bug'
       description: 'A clear description of what the bug is. Include screenshots if applicable.'
-      placeholder: 'Bug description'
     validations:
       required: true
 
@@ -28,12 +27,6 @@ body:
       description: 'Steps to reproduce the behavior.'
 
   - type: 'textarea'
-    id: 'expected-behavior'
-    attributes:
-      label: 'Expected behavior'
-      description: 'A clear description of what you expected to happen.'
-
-  - type: 'textarea'
     id: 'logs'
     attributes:
       label: 'Stack trace or error logs (if relevant)'
@@ -42,5 +35,5 @@ body:
   - type: 'textarea'
     id: 'context'
     attributes:
-      label: 'Additional context'
+      label: 'Additional info/context'
       description: 'Add any other context about the problem here.'
