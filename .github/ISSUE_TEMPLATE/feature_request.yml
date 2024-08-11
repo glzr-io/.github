@@ -1,7 +1,7 @@
 name: '💡 Feature Request'
 title: '[Feature Request] '
 description: 'Suggest an idea'
-labels: ['type: feature', 'state: triage']
+labels: ['type: feature', 'needs triage']
 
 body:
   - type: 'textarea'
