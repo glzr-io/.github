@@ -1,0 +1,46 @@
+name: '🐞 Bug Report'
+title: '[Bug] '
+description: 'Report a bug'
+labels: ['type: bug', 'state: triage']
+
+body:
+  - type: 'markdown'
+    attributes:
+      value: |
+        ## Guidelines
+        1. Please search for existing issues about this problem first.
+        2. Make sure it's not an issue with something else you are using.
+        3. Don't be rude. Maintaining software is time-consuming, so please be considerate.
+
+  - type: 'textarea'
+    id: 'description'
+    attributes:
+      label: 'Describe the bug'
+      description: 'A clear description of what the bug is. Include screenshots if applicable.'
+      placeholder: 'Bug description'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'reproduction'
+    attributes:
+      label: 'Reproduction'
+      description: 'Steps to reproduce the behavior.'
+
+  - type: 'textarea'
+    id: 'expected-behavior'
+    attributes:
+      label: 'Expected behavior'
+      description: 'A clear description of what you expected to happen.'
+
+  - type: 'textarea'
+    id: 'logs'
+    attributes:
+      label: 'Stack trace or error logs (if relevant)'
+      render: 'text'
+
+  - type: 'textarea'
+    id: 'context'
+    attributes:
+      label: 'Additional context'
+      description: 'Add any other context about the problem here.'
