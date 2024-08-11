@@ -1,6 +1,6 @@
 name: '💡 Feature Request'
 title: '[Feature Request] '
-description: 'Suggest an idea'
+description: 'Suggest an idea.'
 labels: ['type: feature', 'needs triage']
 
 body:
