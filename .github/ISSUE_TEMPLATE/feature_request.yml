@@ -26,10 +26,4 @@ body:
     id: 'alternatives'
     attributes:
       label: 'Alternatives considered'
-      description: "Any alternative solutions you've considered."
-
-  - type: 'textarea'
-    id: 'context'
-    attributes:
-      label: 'Additional context'
-      description: 'Add any other context about the problem here.'
+      description: "Alternative solutions you've considered."
